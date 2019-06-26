@@ -1,0 +1,7 @@
+<h1>Matches</h1>
+
+<ul>
+  <li class="match" *ngFor="let m of matches">{{m.player1}} vs {{m.player2}}</li>
+</ul>
+
+<button id="add-replay" (click)="addReplay()">Add Replay</button>
