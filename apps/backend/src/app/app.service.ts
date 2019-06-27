@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
-
-export type Match = {player1:string, player2:string};
+import {Match} from "@tnt-stats/data";
 
 @Injectable()
 export class AppService {

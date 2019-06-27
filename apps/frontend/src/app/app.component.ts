@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {Match} from "@tnt-stats/data";
 
-export type Match = {player1:string, player2:string};
 
 @Component({
   selector: 'tnt-stats-root',
