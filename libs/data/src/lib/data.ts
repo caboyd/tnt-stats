@@ -1,4 +1,2 @@
-export interface Match {
-  player1: string,
-  player2: string
-}
+
+const tnt_date_offset = 504911232000000000;

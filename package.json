@@ -42,6 +42,7 @@
     "@nestjs/typeorm": "^6.1.2",
     "@nrwl/schematics": "^8.1.2",
     "core-js": "^2.5.4",
+    "ngx-file-drop": "^8.0.3",
     "pg": "^7.11.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "~6.4.0",
