@@ -13,9 +13,8 @@ describe('AppService', () => {
     service = app.get<AppService>(AppService);
   });
 
-  describe('getData', () => {
-    it('dummy', () => {
-      expect(true).toEqual(true);
+    it('should be defined', () => {
+        expect(service).toBeDefined();
     });
-  });
+
 });

@@ -7,13 +7,10 @@ export class AppController {
   constructor(private readonly appService: AppService) {
   }
 
-  @Get('matches')
+  @Get()
   getData() {
-    return this.appService.matches;
+    return {message:"Welcome to backend!"};
   }
 
-  @Post('add')
-  add(){
-    return this.appService.addReplay();
-  }
+
 }

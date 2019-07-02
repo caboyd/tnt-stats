@@ -1,7 +1,6 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { Match } from './match.entity';
 
-
 @Entity('match_type', { schema: 'tntstats' })
 export class MatchType {
 

@@ -25,7 +25,8 @@ export class Player {
 
     @Column('boolean', {
         nullable: false,
-        name: 'common_name_lock'
+        name: 'common_name_lock',
+        default: false
     })
     common_name_lock: boolean;
 
